@@ -30,11 +30,11 @@ gcc  foo.c -L<path_to_the_libft> -lft
 The functions bellow are reproductions of others library functions:
 | Standard C functions   	|                     |                         |                         |                         |
 |:------------------------| :-------------------|:------------------------|:------------------------|:------------------------|
-| [ft_isalpha][1]	        |	[ft_strlen][6]		        | ft_strlcpy				    	| ft_strrchr  					  | ft_strnstr 	            |				  
-|	[ft_isdigit][2]         |	[ft_memset][7]	      		|	ft_strlcat	  	        | ft_strncmp  				    |	ft_atoi			            |
-|	[ft_isalnum][3]         |	[ft_bzero][8]						| ft_toupper		          | ft_memchr						    | ft_calloc     	        |	  
-|	[ft_isascii][4]		    	| [ft_memcpy][9]		 			  | ft_tolower				      | ft_memcmp		            |	ft_strdup	              |
-| [ft_isprint][5]         |	[ft_memmove][10]					| ft_strchr               |                         |                         |
+| [ft_isalpha][1]	        |	[ft_strlen][6]		  | [ft_strlcpy][11]				    	| [ft_strrchr][16]  					  | [ft_strnstr][20] 	            |				  
+|	[ft_isdigit][2]         |	[ft_memset][7]	    |	[ft_strlcat][12]	  	        | [ft_strncmp][17]  				    |	[ft_atoi][21]			            |
+|	[ft_isalnum][3]         |	[ft_bzero][8]				| [ft_toupper]13]		            | [ft_memchr][18]						    | [ft_calloc][22]    	        |	  
+|	[ft_isascii][4]		    	| [ft_memcpy][9]		 	| [ft_tolower][14]				      | [ft_memcmp][19]		            |	[ft_strdup] [23]	              |
+| [ft_isprint][5]         |	[ft_memmove][10]		| [ft_strchr][15]               |                               |                         |
 
 The functions bellow are a choice of School 42:		
 | Additional 42 functions: |											|											|											|								|
@@ -59,3 +59,16 @@ The functions below aren't needed for validated the project:
 [8]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_bzero.c
 [9]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_memcpy.c
 [10]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_memmove.c
+[11]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_strlcpy.c
+[12]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_strlcat.c
+[13]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_toupper.c
+[14]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_tolower.c
+[15]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_strchr.c
+[16]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_strrchr.c
+[17]:https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_strncmp.c
+[18]:https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_memchr.c
+[19]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_memcmp.c
+[20]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_strnstr.c
+[21]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_atoi.c
+[22]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_calloc.c
+[22]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_strdup.c
