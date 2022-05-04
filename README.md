@@ -26,31 +26,29 @@ Or if the library is not in the standard path:
 gcc  foo.c -L<path_to_the_libft> -lft
 ```
 ## Content of the library
+### Mandatory functions:
+The functions bellow are reproductions of others library functions:
+| Standard C functions                      	|                     |                         |                         |                         |
+|:------------------------| :-------------------|:------------------------|:------------------------|:------------------------|
+| ft_isalpha	        	  |	ft_toupper	        | ft_strlen				      	| ft_bzero					      | ft_calloc	              |				  
+|	ft_isdigit	          	|	ft_tolower      		|	ft_strlcpy				      | ft_strdup					      |	ft_atoi			            |
+|	ft_isalnum	         	  |	ft_strchr						|	ft_strlcat				      | ft_isprint			      	| ft_memcpy		        	  |	  
+|	ft_isascii			    	  | ft_strrchr					| ft_strncmp					    | ft_memmove				      |	ft_memchr			          |
+|	ft_memset					      |	ft_memcmp						| 
 
-| Standard C functions:  	| Equivalent libft: | Standard C functions:		| Equivalent libft:  	|	
-|:------------------------| :-----------------|:------------------------| :-------------------|
-|	isalpha	               	|	ft_isalpha	     	|	toupper									|	ft_toupper	     	 	|
-|	isdigit              	 	|	ft_isdigit	     	|	tolower	           			|	ft_tolower      		|
-|	isalnum	               	|	ft_isalnum	     	|	strchr									|	ft_strchr						|
-|	isascii									|	ft_isascii				|	strrchr									|	ft_strrchr					|
-|	isprint									|	ft_isprint				|	strncmp									|	ft_strncmp					|
-|	strlen									|	ft_strlen					|	strnstr									|	ft_strnstr					|
-|	memset									|	ft_memset					|	memcmp									|	ft_memcmp						|
-|	memcpy									|	ft_memcpy					|	memchr									|	ft_memchr						|
-|	memmove									|	ft_memmove				|	atoi										|	ft_atoi							|
-|	strlcpy									|	ft_strlcpy				|	bzero										| ft_bzero						|
-|	strlcat									|	ft_strlcat				|	calloc									|	ft_calloc						|
-|strdup										|	ft_strdup					|													|											|
-
-| Additional functions: |											|	|  	| Bonus functions: 			|											|
-|:----------------------|:--------------------|-|---|:----------------------|:--------------------|
-|	ft_substr							|	ft_strjoin					|	|   |ft_lstnew							|	ft_lstdelone				|
-|	ft_strtrim						| ft_split						|	|   |ft_lstadd_front				| ft_lstadd_back			|
-|	ft_itoa								|	ft_strmapi					|	|   |ft_lstsize							|	ft_lstlast					|
-|	ft_striteri						|	ft_putchar_fd				|	|   |ft_lstclear						|	ft_lstiter					|
-|	ft_putstr_fd					|	ft_putendl					|	|   |ft_lstmap							|											|
-|	ft_putnbr_fd																|	|   |                     	|                     |
-
+The functions bellow are a choice of School 42:		
+| Additional 42 functions: |											|											|											|								|
+|:----------------------|:--------------------|:--------------------|:--------------------|:--------------|
+|	ft_substr							|	ft_strjoin					|	ft_putnbr_fd				|	ft_striteri					| ft_putstr_fd	|
+|	ft_strtrim						| ft_split						|	ft_putendl					|	ft_putchar_fd				|	ft_strmapi		|
+|	ft_itoa																
+### Bonus functions:
+The functions below aren't needed for validated the project:
+| Additional 42 functions: 			|											|											|											|											|
+|:----------------------|:--------------------|:--------------------|:--------------------|:--------------------|
+|	ft_lstnew							|	ft_lstdelone				|ft_lstclear					|	ft_lstiter					|ft_lstmap							|	
+|	ft_lstadd_front				| ft_lstadd_back			|ft_lstsize						|	ft_lstlast					|
+										
 
 
 # Tester
