@@ -27,37 +27,30 @@ gcc  foo.c -L<path_to_the_libft> -lft
 ```
 ## Content of the library
 
-| Standard C functions:  | Equivalent libft: | Standard C functions:  | Equivalent libft: |	
-|:----------------------| :------------------|:----------------------| :------------------|
-|	isalpha	|	ft_isalpha	|	toupper	|	ft_toupper	|
-|	isdigit	| ft_isdigit	|	tolower	|	ft_tolower	|
-|	isalnum	|	ft_isalnum	|	strchr	|	ft_strchr		|
-|	isascii	|	ft_isascii	|	strrchr	|	ft_strrchr	|
-|	isprint	|	ft_isprint	|	strncmp	|	ft_strncmp	|
-|	strlen	|	ft_strlen		|	strnstr	|	ft_strnstr	|
-|	memset	|	ft_memset		|	memcmp	|	ft_memcmp		|
-|	memcpy	|	ft_memcpy		|	memchr	|	ft_memchr		|
-|	memmove	|	ft_memmove	|	atoi		|	ft_atoi			|
-|	strlcpy	|	ft_strlcpy	|	bzero		| ft_bzero		|
-|	strlcat	|	ft_strlcat	|	calloc	|	ft_calloc		|
-|strdup|	ft_strdup	|	|	|
+| Standard C functions:  	| Equivalent libft: | Standard C functions:		| Equivalent libft:  	|	
+|:------------------------| :-----------------|:------------------------| :-------------------|
+|	isalpha	               	|	ft_isalpha	     	|	toupper									|	ft_toupper	     	 	|
+|	isdigit              	 	|	ft_isdigit	     	|	tolower	           			|	ft_tolower      		|
+|	isalnum	               	|	ft_isalnum	     	|	strchr									|	ft_strchr						|
+|	isascii									|	ft_isascii				|	strrchr									|	ft_strrchr					|
+|	isprint									|	ft_isprint				|	strncmp									|	ft_strncmp					|
+|	strlen									|	ft_strlen					|	strnstr									|	ft_strnstr					|
+|	memset									|	ft_memset					|	memcmp									|	ft_memcmp						|
+|	memcpy									|	ft_memcpy					|	memchr									|	ft_memchr						|
+|	memmove									|	ft_memmove				|	atoi										|	ft_atoi							|
+|	strlcpy									|	ft_strlcpy				|	bzero										| ft_bzero						|
+|	strlcat									|	ft_strlcat				|	calloc									|	ft_calloc						|
+|strdup										|	ft_strdup					|													|											|
 
-| Additional functions: |											|
-|:----------------------|:--------------------|
-|	ft_substr							|	ft_strjoin					|
-|	ft_strtrim						| ft_split						|
-|	ft_itoa								|	ft_strmapi					|
-|	ft_striteri						|	ft_putchar_fd				|
-|	ft_putstr_fd					|	ft_putendl					|
-|	ft_putnbr_fd																|
+| Additional functions: |											|	|  	| Bonus functions: 			|											|
+|:----------------------|:--------------------|-|---|:----------------------|:--------------------|
+|	ft_substr							|	ft_strjoin					|	|   |ft_lstnew							|	ft_lstdelone				|
+|	ft_strtrim						| ft_split						|	|   |ft_lstadd_front				| ft_lstadd_back			|
+|	ft_itoa								|	ft_strmapi					|	|   |ft_lstsize							|	ft_lstlast					|
+|	ft_striteri						|	ft_putchar_fd				|	|   |ft_lstclear						|	ft_lstiter					|
+|	ft_putstr_fd					|	ft_putendl					|	|   |ft_lstmap							|											|
+|	ft_putnbr_fd																|	|   |                     	|                     |
 
-| Bonus functions: 			|											|
-|:----------------------|:--------------------|
-|	ft_lstnew							|	ft_lstdelone				|
-|	ft_lstadd_front				| ft_lstadd_back			|
-|	ft_lstsize						|	ft_lstlast					|
-|	ft_lstclear						|	ft_lstiter					|
-|	ft_lstmap							|											|
 
 
 # Tester
