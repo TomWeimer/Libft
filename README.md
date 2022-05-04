@@ -48,7 +48,4 @@ The functions below aren't needed for validated the project:
 |:----------------------|:--------------------|:--------------------|:--------------------|:--------------------|
 |	ft_lstnew							|	ft_lstdelone				|ft_lstclear					|	ft_lstiter					|ft_lstmap							|	
 |	ft_lstadd_front				| ft_lstadd_back			|ft_lstsize						|	ft_lstlast					|
-										
 
-
-# Tester
