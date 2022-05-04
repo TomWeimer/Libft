@@ -32,8 +32,8 @@ The functions bellow are reproductions of others library functions:
 |:------------------------| :-------------------|:------------------------|:------------------------|:------------------------|
 | [ft_isalpha][1]	        |	[ft_strlen][6]		  | [ft_strlcpy][11]				    	| [ft_strrchr][16]  					  | [ft_strnstr][20] 	            |				  
 |	[ft_isdigit][2]         |	[ft_memset][7]	    |	[ft_strlcat][12]	  	        | [ft_strncmp][17]  				    |	[ft_atoi][21]			            |
-|	[ft_isalnum][3]         |	[ft_bzero][8]				| [ft_toupper]13]		            | [ft_memchr][18]						    | [ft_calloc][22]    	        |	  
-|	[ft_isascii][4]		    	| [ft_memcpy][9]		 	| [ft_tolower][14]				      | [ft_memcmp][19]		            |	[ft_strdup] [23]	              |
+|	[ft_isalnum][3]         |	[ft_bzero][8]				| [ft_toupper][13]		            | [ft_memchr][18]						    | [ft_calloc][21]    	        |	  
+|	[ft_isascii][4]		    	| [ft_memcpy][9]		 	| [ft_tolower][14]				      | [ft_memcmp][19]		            |	[ft_strdup] [22]	              |
 | [ft_isprint][5]         |	[ft_memmove][10]		| [ft_strchr][15]               |                               |                         |
 
 The functions bellow are a choice of School 42:		
