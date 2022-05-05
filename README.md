@@ -1,5 +1,5 @@
 # 42 School - Libft
-
+![](https://github.com/TomWeimer/Libft/workflows/norminette/badge.svg)
 ## Description
 This project is the first project available in the curriculum of School 42.	The goal of this assignment is to create a simple library, that can be used in some of the future project.
 
