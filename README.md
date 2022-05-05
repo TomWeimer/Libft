@@ -49,6 +49,36 @@ The functions below aren't needed for validated the project:
 |	[ft_lstnew][34]				| [ft_lstsize][36]					| [ft_lstadd_back][38] 	|	[ft_lstclear][40]		|[ft_lstmap][42]							|	
 |	[ft_lstadd_front][35]	| [ft_lstlast][37]			    |	[ft_lstdelone][39]		|	[ft_lstiter][41]	  |
 
+## Tests:
+To test this library download the tester of @Tripouille:
+```bash
+git clone https://github.com/Tripouille/libftTester
+```
+Before executing the test:<br>
+Go into the Makefile of the tester, and find this line:
+```Makefile
+LIBFT_PATH		= $(PARENT_DIR)
+```
+change it to the path to your library, example:
+```Makefile
+LIBFT_PATH		= ../../libft
+```
+then find this line:
+```Makefile
+CFLAGS	= -g3 -ldl -std=c++11 -I utils/ -I$(LIBFT_PATH)
+```
+and change it to:
+```Makefile
+CFLAGS	= -g3 -ldl -std=c++11 -I utils/ -I$(LIBFT_PATH)/includes
+```
+You can now launch the tester, with:
+1. To execute the mandatory tests:	```make m```
+2. To execute the bonuses tests:	```make b```
+3. To execute both:	```make a```
+
+
+
+
 [1]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_isalpha.c
 [2]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_isdigit.c
 [3]: https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_isalnum.c
