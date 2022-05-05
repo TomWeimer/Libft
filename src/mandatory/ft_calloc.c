@@ -18,7 +18,7 @@ void	*ft_calloc(size_t count, size_t size)
 	unsigned int	total;
 	unsigned int	i;
 
-	if (count >= SIZE_MAX && size >= SIZE_MAX)
+	if (count >= UINT_MAX && size >= UINT_MAX)
 		return (NULL);
 	total = count * size;
 	dst = malloc(total);
