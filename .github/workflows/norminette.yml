@@ -1,8 +1,7 @@
-# .github/workflows/norminette.yml
-name: norminette
+# .github/workflows/main.yml
 on: [push]
 jobs:
-  norminette:
+  norminette_jobs:
     runs-on: ubuntu-latest
     name: norminette
     steps:
