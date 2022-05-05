@@ -15,6 +15,7 @@
 
 # include <unistd.h>
 # include <stdlib.h>
+# define UINT_MAX 4294967295U
 
 typedef struct s_list
 {
