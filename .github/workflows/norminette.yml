@@ -1,12 +1,12 @@
-# .github/workflows/main.yml
-on: [push, pull_request]
-
+# .github/workflows/norminette.yml
+name: norminette
+on: [push]
 jobs:
-  norminette_job:
+  norminette:
     runs-on: ubuntu-latest
     name: norminette
     steps:
     - uses: actions/checkout@v2
-    - uses: alexandregv/norminette-action@v3
+    - uses: TomWeimer/norminette-action@v3
       with:
         flags: '.'
