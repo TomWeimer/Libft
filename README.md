@@ -39,7 +39,7 @@ The functions bellow are reproductions of others library functions:
 The functions bellow are a choice of School 42:		
 | Additional 42 functions: |											|											|											|								|
 |:----------------------|:--------------------|:--------------------|:--------------------|:--------------|
-|	[ft_substr][23]				|		[ft_split][26]		|	[ft_strmapi][28]		| [ft_putchar_fd][30]	| 	[ft_putendl][32]	|
+|	[ft_substr][23]				|		[ft_split][26]		|	[ft_strmapi][28]		| [ft_putchar_fd][30]	| 	[ft_putendl_fd][32]	|
 |	[ft_strjoin][24] 			| 	[ft_itoa][27]			|	[ft_striteri][29]		| [ft_putstr_fd][31] 	|		[ft_putnbr_fd][33]	|
 |	[ft_strtrim][25]															
 ### Bonus functions:
