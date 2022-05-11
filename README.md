@@ -111,7 +111,7 @@ You can now launch the tester, with:
 [29]:  https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_striteri.c
 [30]:  https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_putchar_fd.c
 [31]:  https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_putstr_fd.c
-[32]:  https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_putendl.c
+[32]:  https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_putendl_fd.c
 [33]:  https://github.com/TomWeimer/Libft/blob/main/src/mandatory/ft_putnbr_fd.c
 [34]:  https://github.com/TomWeimer/Libft/blob/main/src/bonus/ft_lstnew.c
 [35]:  https://github.com/TomWeimer/Libft/blob/main/src/bonus/ft_lstadd_front.c
